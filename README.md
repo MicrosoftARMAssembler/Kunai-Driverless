@@ -50,3 +50,4 @@ If you get a report **Valorant** will take a **GPU Screenshot** and Discord does
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da5c0702-b59f-4550-8a10-146a7524a92c" />
 <img width="3840" height="1080" alt="image" src="https://github.com/user-attachments/assets/13761682-9632-47e0-b2e9-6f018473aaf7" />
 
+# Follow my Github and check out my other projects!
