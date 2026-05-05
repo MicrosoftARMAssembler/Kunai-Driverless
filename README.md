@@ -5,8 +5,8 @@ Driverless confirmed working on **Windows 10 and Windows 11**, including systems
 You will need to **update** the **Valorant External** because it was updated a couple weeks ago. <br /> 
 
 # How does the driverless work?
-Kunai uses a **BYOVD (Bring Your Own Vulnerable Driver)** technique for temporary **Kernel Execution**. <br />
-This is a **1-Day Exploit** because we use our **BYOVD** to exploit a **Patched Vulernablity** in windows. <br />
+Kunai uses a **BYOVD (Bring Your Own Vulnerable Driver)** technique temporarily for the **1-Day Exploit**. <br />
+Our method is consided a **1-Day Exploit** because our **BYOVD** is used to exploit a **Patched Vulernablity** in windows. <br />
 After exploiting the **Vulnerability** we map all **Physical Memory** and **Hide Our Process**. <br />
 
 <details>
