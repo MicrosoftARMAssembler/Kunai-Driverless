@@ -37,7 +37,7 @@ Before loading the **BYOVD** we use **Token Impersonation** to elvate our proces
 and we enable **DACL Protection** to prevent handles being opened to our process and restart the process. <br />
 
 Once we load the **BYOVD** and map all **Physical Memory** we unlink our **Handles** so they're not visible in **SystemInformation**, <br />
-and unlink the **VAD Nodes** of all **Physical Memory** so they're not visible from **Kernel Mode**. <br />
+and unlink the **VAD Nodes** from the **Mapped Memory** so it's not visible. <br />
 After we finish cleanup we set our process as a **Process-Protected Light (PPL) Anti-Malware** process. <br />
 </details>
 <img width="1939" height="590" alt="image" src="https://github.com/user-attachments/assets/d3d09934-7db8-4569-8a5e-14771b6740a3" />
