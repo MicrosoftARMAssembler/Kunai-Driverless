@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\oxorany\oxorany.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\gui\device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\gui\font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\gui\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\gui\text_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\gui\ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\gui\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\loader\authority\authority.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utility\utility.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utility\crash.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\loader\memory\paging\paging.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\loader\memory\physical\physical.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\loader\memory\syscall\syscall.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\loader\process\process.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\oxorany\include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\oxorany\oxorany.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\service\bytes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\service\driver\driver.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\service\service.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\service\startup.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\ia32\ia32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\pdb\pdb.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\cache\mutex\mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\cache\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\cache\cache.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\engine\fname\fname.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\engine\math\math.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\engine\unreal\classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\engine\unreal\enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\engine\unreal\structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\engine\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\game\engine\offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\render\menu\menu.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\external\render\render.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\embedded_font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\embedded_font_awesome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\embedded_logo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\text_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\gui\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\service\cache\cache.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\loader\memory\memory.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
