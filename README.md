@@ -23,7 +23,7 @@ Disgusting our **Vulnernable Driver** to be loaded from a **Critical Process** w
 
 
 Our **1-Day** uses the **BYOVD** to set our **KThread::PreviousMode** to **Kernel Mode**, <br />
-then we use **NtOpenSection** to open a handle to **\\Device\\PhysicalMemory** to bypass **SP1 (Windows Server 2003 Service Pack 1)** patch. <br />
+and use **NtOpenSection** to open a handle to **\\Device\\PhysicalMemory** to bypass the **SP1 (Windows Server 2003 Service Pack 1)** patch. <br />
 The security patch **SP1** prevents **User Mode** processes from opening protected handles like **PhysicalMemory**.  <br />
 After obtaining a handle to **PhysicalMemory** we restore our **PreviousMode** and map all **Physical Memory** in our process.  <br />
 
